@@ -21,6 +21,14 @@ if (strcmp(str,"pop") == 0)
 {
 cout«s.top()«"\n";
 s.pop();
+}  else
+if (strcmp(str,"back") == 0)
+{
+cout«s.top()«"\n";;
+} else
+if (strcmp(str,"size") == 0)
+{
+cout«s.size()«"\n";
 }
 return 0;
 }
