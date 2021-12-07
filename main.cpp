@@ -16,6 +16,11 @@ if (strcmp(str,"push") == 0)
 cin»n;;
 s.push(n);
 cout«"ok"«"\n";
+} else
+if (strcmp(str,"pop") == 0)
+{
+cout«s.top()«"\n";
+s.pop();
 }
 return 0;
 }
