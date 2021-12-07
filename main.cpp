@@ -35,7 +35,11 @@ if (strcmp(str,"empty") == 0)
 while(!s.empty())
 s.pop();
 cout«"ok"«"\n";
+}else
+{
+cout«"bye"«"\n";
+break;
+}
 }
 return 0;
-}
 }
