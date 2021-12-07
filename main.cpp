@@ -29,6 +29,12 @@ cout«s.top()«"\n";;
 if (strcmp(str,"size") == 0)
 {
 cout«s.size()«"\n";
+} else
+if (strcmp(str,"empty") == 0)
+{
+while(!s.empty())
+s.pop();
+cout«"ok"«"\n";
 }
 return 0;
 }
